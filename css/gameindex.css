@@ -1,0 +1,47 @@
+body{
+  background-image: url("../media/Background.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:100%;
+  max-width:700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #ff0000;
+  top:0;
+  opacity:.8;  
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #77ee00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#navbar a:hover {
+  background-color: gold;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: paleturquoise;
+  color: white;
+}
+
+section {
+  padding: 12px;
+  background-color:palegoldenrod;
+  font-size:1.2em;
+  opacity:.8;    
+}
+
+

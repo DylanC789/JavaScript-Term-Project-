@@ -1,0 +1,50 @@
+section{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  p{
+      flex:1;
+      width:200px;
+  }
+  #navbar {
+    overflow: hidden;
+    background:blue;
+    margin-top: 0;
+    padding:10px;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  h1{
+    text-align: center;
+    font-size: 3em;
+    color: 	#f85234;
+    font-family: 'Mountains of Christmas';
+  }
+  h2{
+    text-align: center;
+    font-size: 1em;
+    color: 	greenyellow;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+    
+  }
+  #navbar a {
+    float: left;
+    display: block;
+    color: #77ee00;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: silver;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: darkblue;
+    color: white;
+  }
+  

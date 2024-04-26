@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-image:url('../media/backgroundtictactoe.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+    color:black;
+}
+button {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: 0px transparent;
+    margin: 5px;
+    padding: 5px;
+}
+
+.reset {
+    padding: 10px;
+}
+.reset:hover {
+    opacity: 0.8;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+[class*="col-"] 
+{
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+.ex {
+    background: url('../media/CandyCanes.png');
+    background-position: center;
+    background-size: 50px 50px;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity:.7;
+    background-clip: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    z-index: 10;
+}
+.oh {
+    background: url('../media/Wreath.png');
+    background-position: center;
+    background-size: 50px 50px;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity:.7;
+    background-clip: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    z-index: 10;
+}
+#reset{
+	background:darkgreen;
+	padding:10px;
+    color:white;
+}
+#reset:hover{
+	background:white;
+	color:#433352;
+}
+h1{
+    margin-top:40px;
+    color:cyan;
+    text-align:center;
+    margin:0px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+h4{
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    margin:0px;
+}
+p,h4{
+    margin-top:0px;
+    color:green;
+    text-align:center;
+    font-size:1.4em;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #ff0000;
+  margin-top: 0;
+  padding:10px;
+  max-width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  opacity: .8;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #77ee00;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: silver;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: darkblue;
+  color: white;
+}
+
+  
+  
+  
+ 
+  
+ 
